@@ -29,16 +29,18 @@ emma:x:1000:1000:Emma Smith,42 Douglas St,555.555.5555,:/home/emma:/bin/ksh
 ```
 
 Complete los espacios en blanco del gráfico con la información apropiada usando la salida del comando anterior.
-||
-|--|
-|Username|
-|Password|
-|UID|
-|Primary GID|
-|GECOS|
-|Home Directory
-|Shell|
-||
+
+| Salida        | Completar       |
+|:-------------:|:---------------:|
+|Username       |                 |
+|Password       |                 |
+|UID            |                 |
+|Primary GID	|		  |
+|GECOS		|		  |
+|Home Directory |		  |
+|Shell          |                 |
+
+
 
 ## *Ejercicios exploratorios*
 
