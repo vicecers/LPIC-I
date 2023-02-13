@@ -204,10 +204,10 @@ Nunca cambie al superusuario (`root`) sin pasar el parámetro de inicio de sesi�
 
 ¿Cuál es el mayor problema con el uso de `su` para cambiar al superusuario (`root`)? Si la sesión de un usuario normal se ha visto comprometida, se podría capturar la contraseña de superusuario (`root`). Ahí es donde entra en juego el “Switch User Do’' (o "`Superuser Do”):
 ```bash
-$ cat /sys/devices/virtual/dmi/id/board_serial**
+$ cat /sys/devices/virtual/dmi/id/board_serial
 cat: /sys/devices/virtual/dmi/id/board_serial: Permission denied
 
-$ sudo cat /sys/devices/virtual/dmi/id/board_serial**
+$ sudo cat /sys/devices/virtual/dmi/id/board_serial
 [sudo] password for emma:
 /6789ABC/
 ```
