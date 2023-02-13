@@ -329,10 +329,10 @@ $ chfn
 
 Changing the user information for emma
 Enter the new value, or press ENTER for the default
-	Full Name: **Emma Smith**
-	Room Number []: **42**
-	Work Phone []: **555.555.5555**
-	Home Phone []: **555.555.6666**
+	Full Name: Emma Smith
+	Room Number []: 42
+	Work Phone []: 555.555.5555
+	Home Phone []: 555.555.6666
 ```
 #### /etc/group
 
