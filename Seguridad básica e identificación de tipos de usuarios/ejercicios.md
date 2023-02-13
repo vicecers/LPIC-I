@@ -23,8 +23,8 @@ Grupos
 4.  ¿Cómo puede obtener una lista de los inicios de sesión activos en su sistema y también un recuento de ellos?
 
 5. Usando el comando `grep`, obtuvimos el resultado siguiente con la información sobre el usuario `emma`
-```bash 
-$ grep emma /etc/passwdemma:x:1000:1000:Emma Smith,42 Douglas St,555.555.5555,:/home/emma:/bin/ksh 
+```bash
+grep emma /etc/passwdemma:x:1000:1000:Emma Smith,42 Douglas St,555.555.5555,:/home/emma:/bin/ksh 
 ```
 
 Complete los espacios en blanco del gráfico con la información apropiada usando la salida del comando anterior.
