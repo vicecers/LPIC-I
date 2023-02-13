@@ -188,7 +188,7 @@ Sin embargo, hay comandos que permiten escalar de privilegios cuando es necesari
 En la mayoría de los sistemas Linux actuales, el comando  `su`  solo se usa para escalar privilegios a root, que es el usuario predeterminado si no se especifica un nombre de usuario después del nombre del comando. Si bien se puede usar para cambiar a otro usuario, no es una buena práctica: los usuarios deben iniciar sesión desde otro sistema, a través de la red, consola física o terminal en el sistema.
 
 ```bash
-emma ~$ **su -**
+emma ~$ su -
 Password:
 root ~#
 ```
